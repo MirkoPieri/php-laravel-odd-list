@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 200px;
+  text-align: center;
+  padding: 50px;
+  background: lightgray;
+  color: white;
+}
+
+footer {
+  height: 200px;
+  text-align: center;
+  padding: 50px;
+  background: lightgray;
+  color: white;
+}
+
+div.list {
+  height: calc(100vh - 400px);
+  position: relative;
+}
+
+ul li {
+  font-size: 15pt;
+  list-style: none;
+  font-weight: bold;
+  display: inline;
+}
+
+ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
